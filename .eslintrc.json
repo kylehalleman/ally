@@ -1,0 +1,65 @@
+{
+  "rules": {
+    "array-bracket-spacing": 0,
+    "arrow-body-style": 0,
+    "comma-dangle": [1, "never"],
+    "func-style": [2, "declaration"],
+    "indent": [
+      1,
+      2,
+      {"SwitchCase": 1}
+    ],
+    "linebreak-style": [
+      1,
+      "unix"
+    ],
+    "max-len": 0,
+    "no-console": 0,
+    "no-else-return": 1,
+    "no-empty": 1,
+    "no-param-reassign": 1,
+    "no-unused-expressions": [2, { "allowShortCircuit": true }],
+    "no-unused-vars": 1,
+    "no-use-before-define": [2, "nofunc"],
+    "one-var": [2, {
+      "uninitialized": "always",
+      "initialized": "never"
+    }],
+    "quotes": [
+      1,
+      "single"
+    ],
+    "require-jsdoc": [1, {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": false,
+        "ClassDeclaration": false
+      }
+    }],
+    "semi": [
+      1,
+      "always"
+    ],
+    "space-before-blocks": [1, { "functions": "never", "keywords": "always" }],
+    "space-in-parens": 0,
+    "valid-jsdoc": 1
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "commonjs": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "modules": true
+    }
+  }
+}
